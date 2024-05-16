@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 import { logIn, logOut } from "../../store/slices/authSlice";
 
+
 export const UserInfo = ({ route, navigation }) => {
   const loggedInAs = useSelector((state: any) => state.auth.loggedInAs);
   const user = route?.params?.user || loggedInAs;
@@ -22,6 +23,7 @@ export const UserInfo = ({ route, navigation }) => {
               title="Logga ut"
               color="error"
             />
+
           </>
         ) : (
           <>

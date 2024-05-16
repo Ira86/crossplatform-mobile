@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Twatter",
+    "name": "Babbel",
     "slug": "crossplatform-mobile-master",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,14 +16,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.albindalebysprinto.Twatter"
+      "bundleIdentifier": "com.Ira.Babbel"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.albindalebysprinto.Twatter"
+      "package": "com.Ira86.Babbel"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -33,6 +33,8 @@
         "projectId": "a9178ee0-5142-40fd-a05f-a752c908c20b"
       }
     },
-    "owner": "irina86"
+    "plugins": [
+      "expo-localization"
+    ]
   }
 }
